@@ -9,14 +9,30 @@
 }
 
 body {
-    background-image: url("../images/bg-cover-main.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+ /* Location of the image */
+ background-image: url(/obscuraiiitv.github.io/images/bg-cover-main.jpg);
+  
+ /* Background image is centered vertically and horizontally at all times */
+ background-position: center center;
+ 
+ /* Background image doesn't tile */
+ background-repeat: no-repeat;
+ 
+ /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+ background-attachment: fixed;
+ 
+ /* This is what makes the background image rescale based
+    on the container's size */
+ background-size: cover;
+ 
+ /* Set a background color that will be displayed
+    while the background image is loading */
+ background-color: black;
 }
 
 nav {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 nav img {
@@ -66,8 +82,8 @@ ul li a:hover {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 200;
     position: fixed;
-    left: 80px;
-    bottom: 150px;
+    left: 90px;
+    bottom: 200px;
     background-color: black 0.8;;
 }
 
