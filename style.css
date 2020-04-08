@@ -75,4 +75,5 @@ nav a:hover{
 footer{
     color: var(--white-cream);
     bottom: 0;
+    justify-content: center;
 }
