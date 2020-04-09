@@ -103,12 +103,13 @@ footer {
     padding-bottom: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 footer a {
     text-decoration: none;
     color: var(--white-cream);
+    font-size: 0.9em;
 }
 
 footer a:hover {
@@ -120,14 +121,9 @@ footer a:active {
 }
 
 footer a:visited {
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
-footer span{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 0.8em;
-}
 .fa-heart{
     color:#ed3a2d;
 }
