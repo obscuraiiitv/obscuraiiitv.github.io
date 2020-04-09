@@ -85,10 +85,13 @@ ul li a:hover {
 }
 
 @keyframes text-effect {
-    from { bottom: 0px;}
-    to { bottom: 200px;}
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 200px;
+    }
 }
-
 
 footer {
     color: var(--white-cream);
@@ -145,6 +148,78 @@ footer h6 {
     transform: scale(1.1);
 }
 
+.Categories {
+    padding-top: 0px;
+}
+
+.Core-Team {
+    margin: 40px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Core-Team img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Core-Team img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.Members {
+    margin: 50px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Members img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Members img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.Alumni {
+    margin: 50px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.Alumni img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.Alumni img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+h2 {
+    display: flex;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
 .sponsors {
     color: var(--white-cream);
 }
+
+
+/* @media screen and (min-width:320px) {} */
