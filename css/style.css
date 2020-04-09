@@ -9,26 +9,21 @@
 }
 
 body {
- /* Location of the image */
- background-image: url(/obscuraiiitv.github.io/images/bg-cover-main.jpg);
-  
- /* Background image is centered vertically and horizontally at all times */
- background-position: center center;
- 
- /* Background image doesn't tile */
- background-repeat: no-repeat;
- 
- /* Background image is fixed in the viewport so that it doesn't move when 
+    /* Location of the image */
+    background-image: url("../images/bg-cover-main.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
     the content's height is greater than the image's height */
- background-attachment: fixed;
- 
- /* This is what makes the background image rescale based
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
     on the container's size */
- background-size: cover;
- 
- /* Set a background color that will be displayed
+    background-size: cover;
+    /* Set a background color that will be displayed
     while the background image is loading */
- background-color: black;
+    background-color: black;
 }
 
 nav {
@@ -84,7 +79,8 @@ ul li a:hover {
     position: fixed;
     left: 90px;
     bottom: 200px;
-    background-color: black 0.8;;
+    background-color: black 0.8;
+    ;
 }
 
 footer {
@@ -96,7 +92,7 @@ footer {
     max-width: 100%;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: var(--white-cream);
     font-family: 'Roboto', sans-serif;
@@ -104,17 +100,17 @@ footer a{
     font-size: 0.8em;
 }
 
-footer h6{
+footer h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 0.8em;
 }
 
-.heart{
+.heart {
     background-color: transparent;
-    color: var(--white-cream);                                                                                           
+    color: var(--white-cream);
 }
 
-.sponsors{
+.sponsors {
     color: var(--white-cream);
 }
