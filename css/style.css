@@ -84,8 +84,16 @@ ul li a:hover {
     position: fixed;
     left: 90px;
     bottom: 200px;
-    background-color: black 0.8;;
+    background-color: black 0.8;
+    animation-name: text-effect;
+    animation-duration: 3s;
 }
+
+@keyframes text-effect {
+    from { bottom: 0px;}
+    to { bottom: 200px;}
+}
+
 
 footer {
     color: var(--white-cream);
