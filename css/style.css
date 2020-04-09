@@ -78,19 +78,19 @@ ul li a:hover {
     font-weight: 200;
     position: fixed;
     left: 90px;
-    bottom: 200px;
+    bottom: 225px;
     background-color: black 0.8;
-    ;
 }
 
 footer {
     color: var(--white-cream);
     justify-content: center;
     position: fixed;
-    left: 700px;
+    left: 677px;
     bottom: 0;
     max-width: 100%;
     top: 642px;
+    text-align: center;
 }
 
 footer a {
@@ -101,8 +101,20 @@ footer a {
     font-size: 0.9em;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--white-cream);
+}
+
+footer a:visited {
+    color: white;
+}
+
 footer h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 200;
     font-size: 1.0em;
 }
@@ -110,6 +122,23 @@ footer h6 {
 .heart {
     background-color: transparent;
     color: var(--white-cream);
+}
+
+.gallery {
+    margin: 10px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 
 .sponsors {
