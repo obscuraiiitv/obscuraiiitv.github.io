@@ -86,7 +86,7 @@ ul li a:hover {
     bottom: 200px;
     background-color: black 0.8;
     animation-name: text-effect;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 
 @keyframes text-effect {
