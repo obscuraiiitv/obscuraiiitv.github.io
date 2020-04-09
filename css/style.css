@@ -9,26 +9,21 @@
 }
 
 body {
- /* Location of the image */
- background-image: url(/obscuraiiitv.github.io/images/bg-cover-main.jpg);
-  
- /* Background image is centered vertically and horizontally at all times */
- background-position: center center;
- 
- /* Background image doesn't tile */
- background-repeat: no-repeat;
- 
- /* Background image is fixed in the viewport so that it doesn't move when 
+    /* Location of the image */
+    background-image: url("../images/bg-cover-main.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
     the content's height is greater than the image's height */
- background-attachment: fixed;
- 
- /* This is what makes the background image rescale based
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
     on the container's size */
- background-size: cover;
- 
- /* Set a background color that will be displayed
+    background-size: cover;
+    /* Set a background color that will be displayed
     while the background image is loading */
- background-color: black;
+    background-color: black;
 }
 
 nav {
@@ -99,30 +94,62 @@ footer {
     color: var(--white-cream);
     justify-content: center;
     position: fixed;
-    left: 700px;
+    left: 677px;
     bottom: 0;
     max-width: 100%;
+    top: 642px;
+    text-align: center;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: var(--white-cream);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
-footer h6{
-    font-family: 'Roboto', sans-serif;
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--white-cream);
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer h6 {
+    font-family: Arial, sans-serif;
     font-weight: 200;
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 
-.heart{
+.heart {
     background-color: transparent;
-    color: var(--white-cream);                                                                                           
+    color: var(--white-cream);
 }
 
-.sponsors{
+.gallery {
+    margin: 10px 50px;
+    padding-left: 100px;
+    bottom: 100px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 30px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.sponsors {
     color: var(--white-cream);
 }
