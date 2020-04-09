@@ -92,12 +92,10 @@ ul li a:hover {
 
 footer {
     color: var(--white-cream);
-    justify-content: center;
     position: fixed;
-    left: 677px;
+    left: 500px;
     bottom: 0;
     max-width: 100%;
-    top: 642px;
     text-align: center;
 }
 
@@ -106,7 +104,7 @@ footer a {
     color: var(--white-cream);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 footer a:hover {
@@ -122,16 +120,13 @@ footer a:visited {
 }
 
 footer h6 {
-    font-family: Arial, sans-serif;
-    font-weight: 200;
-    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
 }
-
-.heart {
-    background-color: transparent;
-    color: var(--white-cream);
+.fa-heart{
+    color:#ed3a2d;
 }
-
 .gallery {
     margin: 10px 50px;
     padding-left: 100px;
