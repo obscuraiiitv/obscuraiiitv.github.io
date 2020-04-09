@@ -97,13 +97,13 @@ footer a {
     color: var(--white-cream);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 footer h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 
 .heart {
