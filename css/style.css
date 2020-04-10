@@ -258,7 +258,7 @@ h2 {
 
 .social {
     background-color: rgba(0, 0, 0, 0.65);
-    color: white;
+    color: var(--white-cream);
     width: 30%;
     position: relative;
     left: 63%;
