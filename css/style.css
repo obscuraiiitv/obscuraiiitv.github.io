@@ -104,7 +104,7 @@ ul li a:{
 footer {
     color: var(--white-cream);
     position: fixed;
-    left: 50%;
+    left: 46%;
     bottom: 0;
     max-width: 100%;
     text-align: center;
@@ -132,9 +132,10 @@ footer a:visited {
     color: rgb(216, 216, 216);
 }
 
-.fa-heart{
-    color:#ed3a2d;
+.fa-heart {
+    color: #ed3a2d;
 }
+
 .gallery {
     margin: 10px 50px;
     padding-left: 100px;
@@ -219,11 +220,77 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: white;
+    color: var(--white-cream);
 }
 
 .sponsors {
     color: var(--white-cream);
+}
+
+
+/* For Contact Page */
+
+.vertical {
+    border-left: 4px solid var(--white-cream);
+    width: 1.5px;
+    height: 500px;
+    position: absolute;
+    top: 28px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.email {
+    position: relative;
+    padding: 50px;
+    width: 40%;
+    top: 90px;
+    left: 120px;
+}
+
+.email h2 {
+    font-size: 1.9em;
+}
+
+.email a {
+    color: var(--white-cream);
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--white-cream);
+    width: 30%;
+    position: relative;
+    left: 63%;
+    bottom: 265px;
+}
+
+.smicons {
+    padding-top: 18px;
+    height: 100px;
+    width: 345px;
+    position: relative;
+    left: 45px;
+}
+
+.fab {
+    color: var(--white-cream);
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    font-size: 65px;
+}
+
+.fab:hover {
+    color: white;
 }
 
 
