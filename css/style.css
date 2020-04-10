@@ -73,7 +73,7 @@ btn:hover{
 .active , .btn:hover{
     border-bottom: solid;
     padding-bottom: 10px;
-    color: #ffffff;
+    color: #d8d8d8;
     width: 40px;
 }
 
