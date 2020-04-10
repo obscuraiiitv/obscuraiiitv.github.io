@@ -234,5 +234,37 @@ h2 {
     margin: auto;
 }
 
+.email {
+    position: relative;
+    padding: 50px;
+    width: 40%;
+    top: 90px;
+    left: 120px;
+}
+
+.email h2 {
+    font-size: 1.9em;
+}
+
+.email a {
+    color: var(--white-cream);
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--white-cream);
+    height: 40px;
+    width: 48%;
+    position: relative;
+    left: 63%;
+    bottom: 265px;
+}
+
 
 /* @media screen and (min-width:320px) {} */
