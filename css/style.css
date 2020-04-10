@@ -55,7 +55,7 @@ ul li {
     margin-left: 50px;
 }
 
-ul li a {
+.btn {
     color: var(--white-cream);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -63,14 +63,21 @@ ul li a {
     font-size: 1.5em;
 }
 
-ul li a:active{
+btn:hover{
     border-bottom: solid;
     padding-bottom: 10px;
     color: var(--white-cream);
     width: 40px;
 }
 
-ul li a:{
+.active , .btn:hover{
+    border-bottom: solid;
+    padding-bottom: 10px;
+    color: #ffffff;
+    width: 40px;
+}
+
+ul li a:hover{
     border-bottom: solid;
     padding-bottom: 10px;
     color: #ffffff;
