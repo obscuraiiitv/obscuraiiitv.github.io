@@ -96,7 +96,7 @@ ul li a:hover {
 footer {
     color: var(--white-cream);
     position: fixed;
-    left: 50%;
+    left: 46%;
     bottom: 0;
     max-width: 100%;
     text-align: center;
@@ -124,9 +124,10 @@ footer a:visited {
     color: rgb(216, 216, 216);
 }
 
-.fa-heart{
-    color:#ed3a2d;
+.fa-heart {
+    color: #ed3a2d;
 }
+
 .gallery {
     margin: 10px 50px;
     padding-left: 100px;
@@ -211,11 +212,26 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: white;
+    color: var(--white-cream);
 }
 
 .sponsors {
     color: var(--white-cream);
+}
+
+
+/* For Contact Page */
+
+.vertical {
+    border-left: 4px solid var(--white-cream);
+    width: 1px;
+    height: 500px;
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
