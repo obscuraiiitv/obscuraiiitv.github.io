@@ -33,6 +33,7 @@ nav {
 nav img {
     width: 20%;
     height: auto;
+    opacity: 0.9;
 }
 
 .container {
@@ -59,28 +60,32 @@ ul li {
     color: var(--white-cream);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.5em;
 }
 
 btn:hover{
-    border-bottom: solid;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
     padding-bottom: 10px;
     color: var(--white-cream);
     width: 40px;
+    position: relative;
 }
 
-.active , .btn:hover{
-    border-bottom: solid;
+
+.active, .btn:hover{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
     padding-bottom: 10px;
     color: #d8d8d8;
     width: 40px;
 }
 
 ul li a:hover{
-    border-bottom: solid;
+    border-bottom: thin;
     padding-bottom: 10px;
-    color: #ffffff;
+    color: #d8d8d8;
     width: 40px;
 }
 
