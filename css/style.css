@@ -64,7 +64,7 @@ ul li {
     font-size: 1.5em;
 }
 
-btn:hover{
+btn:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
@@ -73,8 +73,8 @@ btn:hover{
     position: relative;
 }
 
-
-.active, .btn:hover{
+.active,
+.btn:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
@@ -82,13 +82,12 @@ btn:hover{
     width: 40px;
 }
 
-ul li a:hover{
+ul li a:hover {
     border-bottom: thin;
     padding-bottom: 10px;
     color: #d8d8d8;
     width: 40px;
 }
-
 
 .heading {
     z-index: 100;
