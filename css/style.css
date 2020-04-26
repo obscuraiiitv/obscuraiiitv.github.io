@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
 :root {
@@ -66,9 +66,11 @@ ul li {
     font-weight: 300;
     font-size: 0.9em;
     letter-spacing: 0.5rem;
+    animation-name: text-second;
+    animation-duration: 9s;
 }
 
-btn:hover {
+btn:hover{
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
@@ -77,8 +79,8 @@ btn:hover {
     position: relative;
 }
 
-.active,
-.btn:hover {
+
+.active, .btn:hover{
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
@@ -86,12 +88,15 @@ btn:hover {
     width: 40px;
 }
 
-ul li a:hover {
+ul li a:hover{
     border-bottom: thin;
     padding-bottom: 10px;
     color: #d8d8d8;
     width: 40px;
 }
+
+
+
 
 .heading {
     z-index: 100;
