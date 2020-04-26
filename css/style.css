@@ -147,10 +147,12 @@ ul li a:hover{
 
 @keyframes text-effect {
     from {
-        bottom: 0px;
+        bottom: 100px;
+        opacity: 0.5;
     }
     to {
         bottom: 200px;
+        opacity: 0.9;
     }
 }
 
