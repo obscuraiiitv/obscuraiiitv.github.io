@@ -26,8 +26,23 @@ body {
     /* Set a background color that will be displayed
     while the background image is loading */
     background-color: black;
+    animation-name: bg-effect;
+    animation-duration: 4s;
+    opacity: 1;
 }
 
+/* Background animation effect */
+
+@keyframes bg-effect{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Navigation */
 nav {
     padding-top: 20px;
 }
@@ -84,7 +99,7 @@ btn:hover{
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
-    color: #d8d8d8;
+    color: rgb(98, 161, 255);
     width: 40px;
 }
 
@@ -96,7 +111,7 @@ ul li a:hover{
 }
 
 
-
+/* Main Text */
 
 .heading {
     z-index: 100;
@@ -111,9 +126,11 @@ ul li a:hover{
     bottom: 200px;
     background-color: black 0.8;
     animation-name: text-effect;
-    animation-duration: 4s;
+    animation-duration: 2s;
     opacity: 0.9;
 }
+
+/* IIIT VADODARA */
 
 .second-line{
     z-index: 100;
@@ -135,6 +152,7 @@ ul li a:hover{
 }
 
 
+
 @keyframes text-second {
     from {
         opacity: 0;
@@ -147,7 +165,7 @@ ul li a:hover{
 
 @keyframes text-effect {
     from {
-        bottom: 100px;
+        bottom: 160px;
         opacity: 0.5;
     }
     to {
@@ -167,7 +185,7 @@ footer {
     font-style: italic;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300!important;
+    font-weight: 100!important;
     font-size: 0.8em;
     letter-spacing: 0.02rem;
 }
@@ -175,7 +193,7 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--white-cream);
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 footer a:hover {
