@@ -49,7 +49,7 @@ nav {
 nav img{
     width: 10%;
     height: auto;
-    margin-left: 60px;
+    margin-left: 4vw;
     opacity: 0.9;
 }
 
@@ -81,6 +81,9 @@ ul li {
     text-transform: uppercase;
     font-size: 0.9em;
     letter-spacing: 0.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
 }
 
 btn:hover{
@@ -100,6 +103,7 @@ btn:hover{
     color: rgb(98, 161, 255);
     width: 40px;
 }
+
 
 ul li a:hover{
     border-bottom: thin;
@@ -124,10 +128,10 @@ ul li a:hover{
     animation-name: text-effect;
     animation-duration: 4s;
     opacity: 0.9;
-    padding-left: 10vw;
+    margin-left: 9vw;
 }
 
-/* IIIT VADODARA */
+/* rules */
 .para{
     z-index: 100;
     justify-content: center;
@@ -137,12 +141,14 @@ ul li a:hover{
     font-size: 0.8rem;
     letter-spacing: 0.4rem;
     margin-left: 4vw;
+    margin-top: 10vh;
     display: flex;
     flex-direction: row;
     color: rgb(61, 109, 106);
     animation-name: text-second;
     animation-duration: 4s;
     justify-content: center;
+    text-align: center;
     
 }
 
@@ -206,7 +212,7 @@ footer a:visited { */
 } */
 
 .para ul li{
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 a{
@@ -218,6 +224,11 @@ a{
     width: 30px;
 }
 
+.para svg:hover{
+    fill: white;
+    width: 100px;
+}
+
 
 @media screen and (max-width:720px) 
 {   
@@ -227,14 +238,16 @@ a{
         line-height: 3rem;
         letter-spacing: 0.4rem;
         margin-top: -5px;
+        margin-left: 0;
     }
 
     nav img{
         width: 40%;
+        margin-left: 10vw;
     }
 
     .para{
-        margin-left: 100px;
+        margin-left: 15vw;
         margin-top: 30px;
         margin-right: 0;
         text-align: center;
@@ -251,5 +264,4 @@ a{
     .para svg{
         width: 50px;
     }
-
 }
