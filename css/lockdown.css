@@ -142,6 +142,7 @@ ul li a:hover{
     color: rgb(61, 109, 106);
     animation-name: text-second;
     animation-duration: 4s;
+    justify-content: center;
     
 }
 
@@ -210,7 +211,7 @@ footer a:visited { */
 
 a{
     text-decoration: none;
-    color: rgb(98, 161, 255);
+    color: rgb(61, 109, 106);
 }
 
 .favicon{
@@ -233,8 +234,9 @@ a{
     }
 
     .para{
-        margin-left: 30px;
+        margin-left: 100px;
         margin-top: 30px;
+        margin-right: 0;
         text-align: center;
         font-size: 0.7rem;
         line-height: 0.7rem;
