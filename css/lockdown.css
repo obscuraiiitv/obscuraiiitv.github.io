@@ -71,7 +71,7 @@ ul {
 }
 
 ul li {
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .btn {
@@ -222,13 +222,21 @@ a{
     outline: 0;
 }
 
+a:hover, a:focus{
+    outline: 0;
+    border: 0;
+}
+
 .favicon{
     width: 30px;
 }
 
 svg:hover{
     fill: white;
-    width: 100px;
+}
+
+a:focus-visible{
+    outline: none;
 }
 
 
