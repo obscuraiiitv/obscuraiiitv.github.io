@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+:root {
+    --black: hsl(198, 24%, 8%);
+    --white-cream: hsl(0, 0%, 70%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("/images/bg-cover-tilt-min.jpg");
+    /* Full height */
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+
+  
+/* Background animation effect */
+
+@keyframes bg-effect{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Navigation */
+nav {
+    padding-top: 20px;
+}
+
+nav img{
+    width: 10%;
+    height: auto;
+    margin-left: 60px;
+    opacity: 0.9;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    border: 0 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 60px;
+}
+
+.btn {
+    color: var(--white-cream);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.5rem;
+}
+
+btn:hover{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+    color: var(--white-cream);
+    width: 40px;
+    position: relative;
+}
+
+
+.active, .btn:hover{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+    color: rgb(98, 161, 255);
+    width: 40px;
+}
+
+ul li a:hover{
+    border-bottom: thin;
+    padding-bottom: 10px;
+    color: #d8d8d8;
+    width: 40px;
+}
+
+
+/* Main Text */
+.heading {
+    z-index: 100;
+    color: rgb(204, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 4.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    margin-top: 100px;
+    background-color: black 0.8;
+    animation-name: text-effect;
+    animation-duration: 4s;
+    opacity: 0.9;
+    padding-left: 10vw;
+}
+
+/* IIIT VADODARA */
+.para{
+    z-index: 100;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(61, 109, 106);
+    animation-name: text-second;
+    animation-duration: 4s;
+    
+}
+
+.para > ul > li> a:hover{
+    font-size: 1rem;
+}
+
+
+
+@keyframes text-second {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes text-effect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+/* 
+footer {
+    color: var(--white-cream);
+    position: fixed;
+    left: 46%;
+    bottom: 0;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100!important;
+    font-size: 0.8em;
+    letter-spacing: 0.02rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white-cream);
+    font-size: 0.7em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--white-cream);
+}
+
+footer a:visited { */
+    /* color: rgb(216, 216, 216);
+} */
+
+.para ul li{
+    flex-direction: row;
+}
+
+
+
+@media screen and (max-width:720px) 
+{   
+    .heading{
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 3rem;
+        letter-spacing: 0.4rem;
+        margin-top: -5px;
+    }
+
+    nav img{
+        width: 50%;
+    }
+
+    .para{
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
+        letter-spacing: 0.18rem;
+        flex-direction: column;
+    }
+
+    .para li{
+        padding-bottom: 5px;
+    }
+
+    .para svg{
+        width: 50px;
+    }
+
+}
