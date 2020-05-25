@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300&family=Poppins:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Poppins:wght@800&display=swap');
 :root {
     --black: hsl(198, 24%, 8%);
     --white-cream: hsl(0, 0%, 70%);
@@ -145,7 +145,7 @@ ul li a:hover{
     margin-top: 10vh;
     display: flex;
     flex-direction: row;
-    color: rgb(102, 180, 175);
+    color: #b4d3d2;
     animation-name: text-second;
     animation-duration: 4s;
     justify-content: center;
@@ -218,7 +218,7 @@ footer a:visited { */
 
 a{
     text-decoration: none;
-    color: rgb(102, 180, 175);
+    color: #ffffff;
 }
 
 .favicon{
@@ -236,15 +236,19 @@ svg:hover{
     .heading{
         font-size: 0.7rem;
         text-align: center;
-        line-height: 3rem;
-        letter-spacing: 0.4rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.3rem;
         margin-top: -5px;
         margin-left: 0;
     }
 
     nav img{
-        width: 40%;
+        width: 34%;
         margin-left: 10vw;
+    }
+
+    .btn{
+        font-size: 0.8rem;
     }
 
     .para{
@@ -252,9 +256,9 @@ svg:hover{
         margin-top: 30px;
         margin-right: 0;
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         line-height: 0.7rem;
-        letter-spacing: 0.18rem;
+        letter-spacing: 0.1rem;
         flex-direction: column;
     }
 
