@@ -136,7 +136,7 @@ ul li a:hover{
     line-height: 2rem;
     font-size: 0.8rem;
     letter-spacing: 0.4rem;
-    margin-left: 200px;
+    margin-left: 4vw;
     display: flex;
     flex-direction: row;
     color: rgb(61, 109, 106);
@@ -208,6 +208,14 @@ footer a:visited { */
     flex-direction: row;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(98, 161, 255);
+}
+
+.favicon{
+    width: 30px;
+}
 
 
 @media screen and (max-width:720px) 
@@ -221,7 +229,7 @@ footer a:visited { */
     }
 
     nav img{
-        width: 50%;
+        width: 40%;
     }
 
     .para{
