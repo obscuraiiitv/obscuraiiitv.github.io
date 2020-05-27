@@ -231,8 +231,8 @@ a:hover, a:focus{
     width: 30px;
 }
 
-svg:hover{
-    fill: white;
+a:hover, a:focus{
+    outline: 0!important;
 }
 
 a:focus-visible{
@@ -277,5 +277,9 @@ a:focus-visible{
 
     .para svg{
         width: 50px;
+    }
+
+    a:hover, a:focus{
+        outline: 0!important;
     }
 }
