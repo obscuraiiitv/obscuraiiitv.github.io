@@ -42,27 +42,21 @@ body {
     }
 }
 
-/* Navigation */
-nav {
-    padding-top: 20px;
-}
-
-nav img {
-    width: 20%;
-    height: auto;
-    opacity: 0.9;
-}
-
 .container {
     display: flex;
     margin: 0 auto;
     max-width: 100%;
-    width: 1200px;
+    width: 1300px;
     align-items: center;
     justify-content: space-between;
     border: 0 20px;
 }
+header .container img{
 
+        width: 100px;
+        height: 100px;
+    
+}
 ul {
     display: flex;
     list-style-type: none;
@@ -82,7 +76,7 @@ ul li {
     font-size: 0.9em;
     letter-spacing: 0.5rem;
     animation-name: text-second;
-    animation-duration: 9s;
+    animation-duration: 4s;
 }
 
 btn:hover{
@@ -99,7 +93,7 @@ btn:hover{
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
-    color: rgb(98, 161, 255);
+    color: #ff7d00;
     width: 40px;
 }
 
@@ -122,7 +116,7 @@ ul li a:hover{
     line-height: 3.9rem;
     font-size: 2rem;
     position: fixed;
-    left: 90px;
+    left: 130px;
     bottom: 200px;
     background-color: black 0.8;
     animation-name: text-effect;
@@ -142,10 +136,10 @@ ul li a:hover{
     font-size: 0.46rem;
     position: fixed;
     letter-spacing: 1rem;
-    left:90px;
+    left:135px;
     bottom: 150px;
     background-color: black 0.8;
-    color: #0066FF;
+    color: #ff7d00;
     animation-name: text-second;
     animation-duration: 9s;
     
@@ -186,7 +180,7 @@ footer {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100!important;
-    font-size: 0.8em;
+    font-size: 1.0em;
     letter-spacing: 0.02rem;
 }
 
@@ -223,11 +217,13 @@ footer a:visited {
     padding: 30px;
     width: 400px;
     border-radius: 35px;
+    filter: grayscale(100%);
 }
 
 .gallery img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .Categories {
@@ -245,11 +241,13 @@ footer a:visited {
     padding: 30px;
     width: 400px;
     border-radius: 35px;
+    filter: grayscale(100%);
 }
 
 .Core-Team img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .Members {
@@ -263,11 +261,13 @@ footer a:visited {
     padding: 30px;
     width: 400px;
     border-radius: 35px;
+    filter: grayscale(100%);
 }
 
 .Members img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .Alumni {
@@ -281,11 +281,13 @@ footer a:visited {
     padding: 30px;
     width: 400px;
     border-radius: 35px;
+    filter: grayscale(100%);
 }
 
 .Alumni img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 h2 {
@@ -322,7 +324,7 @@ h2 {
     position: relative;
     padding: 50px;
     width: 40%;
-    top: 90px;
+    top: 80px;
     left: 120px;
 }
 
@@ -350,23 +352,26 @@ h2 {
 }
 
 .smicons {
-    padding-top: 18px;
     height: 100px;
     width: 345px;
     position: relative;
-    left: 45px;
+    left: 20px;
 }
 
 .fab {
     color: var(--white-cream);
-    width: 100px;
-    height: 100px;
+    margin: 0px 15px;
+    width: 50px;
+    height: 50px;
     background-size: 100% 100%;
     font-size: 65px;
 }
 
 .fab:hover {
     color: white;
+    transform: scale(1.1);
+                transition: all 0.3s;
+                cursor: pointer;
 }
 
 
