@@ -115,18 +115,23 @@ ul li a:hover{
     font-weight: 400;
     line-height: 3.9rem;
     font-size: 2rem;
-    position: fixed;
-    left: 130px;
-    bottom: 220px;
+    margin-top:230px;
+    margin-left: 125px;
+    margin-bottom: 2px;
     background-color: black 0.8;
     animation-name: text-effect;
     animation-duration: 2s;
     opacity: 0.9;
 }
+.heading:hover{
+    color:white;
+    cursor: pointer;
+}
 
 /* IIIT VADODARA */
 
 .second-line{
+    cursor: pointer;
     z-index: 100;
     justify-content: center;
     font-family: 'Lato', sans-serif;
@@ -134,10 +139,9 @@ ul li a:hover{
     font-weight: 800;
     line-height: 3.9rem;
     font-size: 0.46rem;
-    position: fixed;
     letter-spacing: 1rem;
-    left:135px;
-    bottom: 170px;
+    margin-left:130px;
+    margin-bottom: 190px;
     background-color: black 0.8;
     color: #ff7d00;
     animation-name: text-second;
@@ -380,6 +384,16 @@ h2 {
 
 
 @media screen and (max-width:600px){
+    .heading {
+        justify-content: center;
+        margin-left: 5vw;
+        margin-top: 25vh;
+        font-size:1.6em;
+    }
+    .second-line{
+        justify-content: center;
+        margin-left: 7vw;  
+    }
     .email {
         padding:10px;
         width: 90%;
@@ -388,17 +402,18 @@ h2 {
     }
     
     .email h2 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .vertical{
     transform: rotate(90deg);
     height: 90vw;
+    margin-top:170px;
     }
     .social{
         width: 90%;
         left: 5%;
-        top: 50px;
+        top: 65px;
     }
     .social h1{
         text-align: center;
@@ -414,8 +429,8 @@ h2 {
     footer{
         color: var(--white-cream);
         position:relatives;
-        left: 30vw;
-        top:80vh;
+        left: 28vw;
+        top:85vh;
         max-width: 100%;
     }
 }
