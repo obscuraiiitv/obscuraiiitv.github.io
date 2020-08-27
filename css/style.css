@@ -388,7 +388,7 @@ h2 {
     .heading {
         justify-content: center;
         margin-left: 5vw;
-        margin-top: 25vh;
+        margin-top: 19vh;
         font-size:1.2em;
     }
     .second-line{
@@ -410,11 +410,11 @@ h2 {
     .vertical{
     transform: rotate(90deg);
     height: 90vw;
-    margin-top:170px;
+    margin-top:190px;
     }
     .social{
         width: 90%;
-        left: 2%;
+        left: 0%;
         top: 65px;
     }
     .social h1{
