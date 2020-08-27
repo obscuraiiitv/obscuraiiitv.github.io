@@ -380,7 +380,7 @@ h2 {
         padding:10px;
         width: 90%;
         top:0px;
-        left: 5%;
+        left: 2%;
     }
     
     .email h2 {
@@ -389,7 +389,7 @@ h2 {
 
     .vertical{
     transform: rotate(90deg);
-    height: 400px;
+    height: 90vw;
     }
     .social{
         width: 90%;
@@ -405,6 +405,14 @@ h2 {
         margin: 0px 25px;
         width: 25px;
         height: 25px;
-        margin-left:30px;
+        margin-right:30px;
+    }
+    footer{
+        color: var(--white-cream);
+        position:relatives;
+        left: 30%;
+        top:80vh;
+        max-width: 100%;
+        padding-bottom: 5px;
     }
 }
