@@ -384,6 +384,50 @@ h2 {
 
 
 @media screen and (max-width:600px){
+    .container {
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+        width:100vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .container img{
+            margin-top:-2vh;
+            margin-left:35vw;
+            width: 100px;
+            height: 100px;
+        
+    }
+    ul {
+        margin-top:120px;
+        display: flex;
+        list-style-type: none;
+        margin-left:-95vw;
+    }
+    
+    ul li {
+        margin-left:4vw;
+    }
+    
+    .btn {
+        color: var(--white-cream);
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        letter-spacing: 0.2rem;
+        animation-name: text-second;
+        animation-duration: 1s;
+    }
+    .active, .btn:hover{
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        padding-bottom: 10px;
+        color: #ff7d00;
+        width: 40px;
+    }
     .heading {
         justify-content: center;
         margin-left: 5vw;
@@ -429,9 +473,9 @@ h2 {
     }
 
     .Members {
-        margin: 40px 10px;
-        padding-left: 20px;
-        bottom: 100px;
+        margin: 40px 0px;
+    padding-left: 0px;
+    bottom: 100px;
     }
 
     .Members img {
@@ -445,8 +489,8 @@ h2 {
     }
 
     .Alumni {
-        margin: 40px 10px;
-        padding-left: 20px;
+        margin: 40px 0px;
+        padding-left: 0px;
         bottom: 100px;
     }
 
