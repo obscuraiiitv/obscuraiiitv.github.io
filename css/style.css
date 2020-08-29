@@ -218,7 +218,7 @@ ul li a:hover{
 }
 
 .gallery img {
-    transition: 1s;
+    transition: 0.3s;
     padding: 30px;
     width: 400px;
     border-radius: 35px;
@@ -317,7 +317,6 @@ h2 {
     border-left: 4px solid var(--white-cream);
     width: 1.5px;
     height: 500px;
-    position: absolute;
     top: 28px;
     bottom: 0;
     left: 0;
@@ -396,6 +395,70 @@ h2 {
         margin-left: 7vw;
         margin-top:-8vw;
     }
+    .gallery{
+        margin: 10px 10px;
+        padding-left: 30px;
+        bottom: 100px;
+
+    }
+    .gallery img {
+        padding: 30px;
+        width: 400px;
+        border-radius: 35px;
+        filter: grayscale(0%);
+    }
+    
+    .gallery img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+    .Core-Team {
+    margin: 40px 10px;
+    padding-left: 20px;
+    bottom: 100px;
+    }
+
+    .Core-Team img {
+        transition: 0.3s;
+        padding: 30px;
+    }
+
+    .Core-Team img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+    .Members {
+        margin: 40px 10px;
+        padding-left: 20px;
+        bottom: 100px;
+    }
+
+    .Members img {
+        transition: 0.3s;
+        filter: grayscale(0%);
+    }
+
+    .Members img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+    .Alumni {
+        margin: 40px 10px;
+        padding-left: 20px;
+        bottom: 100px;
+    }
+
+    .Alumni img {
+        transition: 0.3s;
+        filter: grayscale(0%);
+    }
+
+    .Alumni img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
     .email {
         padding:10px;
         width: 90%;
@@ -410,7 +473,7 @@ h2 {
     .vertical{
     transform: rotate(90deg);
     height: 90vw;
-    margin-top:190px;
+    margin-top:210px;
     }
     .social{
         width: 90%;
