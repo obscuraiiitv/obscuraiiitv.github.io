@@ -396,8 +396,8 @@ h2 {
         margin-top:-8vw;
     }
     .gallery{
-        margin: 10px 10px;
-        padding-left: 30px;
+        margin: 10px 0px;
+        padding-left: 0px;
         bottom: 100px;
 
     }
@@ -413,14 +413,14 @@ h2 {
         transition: all 0.3s;
     }
     .Core-Team {
-    margin: 40px 10px;
-    padding-left: 20px;
+    margin: 40px 0px;
+    padding-left: 0px;
     bottom: 100px;
     }
 
     .Core-Team img {
         transition: 0.3s;
-        padding: 30px;
+        filter: grayscale(0%);
     }
 
     .Core-Team img:hover {
