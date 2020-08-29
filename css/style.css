@@ -314,15 +314,12 @@ h2 {
 /* For Contact Page */
 
 .vertical {
+    position: relative;
     border-left: 4px solid var(--white-cream);
     width: 1.5px;
-    height: 500px;
-    top: 28px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    
+    height:400px;
+    margin: 0 auto;
+    margin-top:-350px;
 }
 
 .email {
@@ -356,7 +353,7 @@ h2 {
     width: 30%;
     position: relative;
     left: 63%;
-    bottom: 265px;
+    bottom: 295px;
 }
 
 .smicons {
@@ -393,14 +390,14 @@ h2 {
         justify-content: space-between;
     }
     header .container img{
-            margin-top:-2vh;
-            margin-left:35vw;
-            width: 100px;
-            height: 100px;
+            margin-top:-5vh;
+            margin-left:28vw;
+            width: 20vw;
+            height: 20vw;
         
     }
     ul {
-        margin-top:120px;
+        margin-top:15vh;
         display: flex;
         list-style-type: none;
         margin-left:-95vw;
@@ -517,12 +514,12 @@ h2 {
     .vertical{
     transform: rotate(90deg);
     height: 90vw;
-    margin-top:210px;
+    margin-top:-30vh;
     }
     .social{
         width: 90%;
         left: 0%;
-        top: 65px;
+        margin-top: 12vh;
     }
     .social h1{
         text-align: center;
