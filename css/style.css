@@ -399,7 +399,7 @@ h2 {
         margin-top:15vh;
         display: flex;
         list-style-type: none;
-        margin-left:-90vw;
+        margin-left:-92vw;
     }
     
     ul li {
@@ -540,6 +540,6 @@ h2 {
     .made{
         color: var(--white-cream);
         position:relative;
-        left: -7vw;
+        left: -2vw;
     }
 }
