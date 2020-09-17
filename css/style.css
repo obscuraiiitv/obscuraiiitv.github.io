@@ -399,11 +399,11 @@ h2 {
         margin-top:15vh;
         display: flex;
         list-style-type: none;
-        margin-left:-93vw;
+        margin-left:-99vw;
     }
     
     ul li {
-        margin-left:3vw;
+        margin-left:2vw;
     }
     
     .btn {
@@ -412,7 +412,7 @@ h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
-        font-size: 0.7em;
+        font-size: 0.8em;
         letter-spacing: 0.2rem;
         animation-name: text-second;
         animation-duration: 1s;
