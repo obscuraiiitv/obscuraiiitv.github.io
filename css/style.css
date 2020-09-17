@@ -399,11 +399,11 @@ h2 {
         margin-top:15vh;
         display: flex;
         list-style-type: none;
-        margin-left:-99vw;
+        margin-left:-95vw;
     }
     
     ul li {
-        margin-left:2vw;
+        margin-left:3vw;
     }
     
     .btn {
@@ -517,6 +517,7 @@ h2 {
     }
     .social{
         width: 90%;
+        height:40%;
         left: 0%;
         margin-top: 20vh;
     }
