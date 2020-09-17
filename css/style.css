@@ -327,7 +327,7 @@ h2 {
     padding: 50px;
     width: 40%;
     top: 80px;
-    left: 120px;
+    left:7vw;
 }
 
 .email h2 {
@@ -337,7 +337,6 @@ h2 {
 
 .email a {
     font-family: 'Lato', sans-serif;
-    
     color: var(--white-cream);
     text-decoration: none;
 }
@@ -400,7 +399,7 @@ h2 {
         margin-top:15vh;
         display: flex;
         list-style-type: none;
-        margin-left:-92vw;
+        margin-left:-90vw;
     }
     
     ul li {
@@ -413,7 +412,7 @@ h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
-        font-size: 0.8em;
+        font-size: 0.7em;
         letter-spacing: 0.2rem;
         animation-name: text-second;
         animation-duration: 1s;
@@ -534,16 +533,13 @@ h2 {
     }
     .designed{
         color: var(--white-cream);
-        position:relatives;
         left: 28vw;
         top:85vh;
         max-width: 100%;
     }
     .made{
         color: var(--white-cream);
-        position:relatives;
-        left: 32vw;
-        top:85vh;
-        max-width: 100%;
+        position:relative;
+        left: -7vw;
     }
 }
