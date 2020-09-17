@@ -218,7 +218,7 @@ ul li a:hover{
 }
 
 .gallery img {
-    transition: 1s;
+    transition: 0.3s;
     padding: 30px;
     width: 400px;
     border-radius: 35px;
@@ -314,16 +314,12 @@ h2 {
 /* For Contact Page */
 
 .vertical {
+    position: relative;
     border-left: 4px solid var(--white-cream);
     width: 1.5px;
-    height: 500px;
-    position: absolute;
-    top: 28px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    
+    height:400px;
+    margin: 0 auto;
+    margin-top:-350px;
 }
 
 .email {
@@ -331,7 +327,7 @@ h2 {
     padding: 50px;
     width: 40%;
     top: 80px;
-    left: 120px;
+    left:7vw;
 }
 
 .email h2 {
@@ -341,7 +337,6 @@ h2 {
 
 .email a {
     font-family: 'Lato', sans-serif;
-    
     color: var(--white-cream);
     text-decoration: none;
 }
@@ -357,7 +352,7 @@ h2 {
     width: 30%;
     position: relative;
     left: 63%;
-    bottom: 265px;
+    bottom: 295px;
 }
 
 .smicons {
@@ -385,6 +380,52 @@ h2 {
 
 
 @media screen and (max-width:600px){
+    .container {
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+        width:100vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .container img{
+            margin-top:-5vh;
+            margin-left:34vw;
+            width: 20vw;
+            height: 20vw;
+    }
+
+    ul {
+        margin-top:15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+        margin-left:-100vw;
+    }
+    
+    ul li {
+        margin-left:4vw;
+    }
+    
+    .btn {
+        color: var(--white-cream);
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        letter-spacing: 0.2rem;
+        animation-name: text-second;
+        animation-duration: 1s;
+    }
+    .active, .btn:hover{
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        padding-bottom: 10px;
+        color: #ff7d00;
+        width: 40px;
+    }
     .heading {
         justify-content: center;
         margin-left: 5vw;
@@ -395,6 +436,83 @@ h2 {
         justify-content: center;
         margin-left: 7vw;
         margin-top:-8vw;
+    }
+    .gallery{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40%;
+        bottom: 100px;
+    }
+
+    .gallery img {
+        padding: 30px;
+        width: 400px;
+        border-radius: 35px;
+        filter: grayscale(0%);
+    }
+    
+    .gallery img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+    .Core-Team {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 100px;
+        margin: 2vh -3vw;
+        padding-left: 2vw;
+    }
+
+    .Core-Team img {
+        margin-right: 20vw;
+        transition: 0.3s;
+        filter: grayscale(0%);
+    }
+
+    .Core-Team img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+    .Members {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 100px;
+        margin: 2vh -3vw;
+        padding-left: 2vw;
+    }
+
+    .Members img {
+        transition: 0.3s;
+        filter: grayscale(0%);
+    }
+
+    .Members img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+    .Alumni {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 100px;
+        margin: 2vh -3vw;
+        padding-left: 2vw;
+    }
+
+    .Alumni img {
+        transition: 0.3s;
+        filter: grayscale(0%);
+    }
+
+    .Alumni img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
     }
     .email {
         padding:10px;
@@ -410,12 +528,13 @@ h2 {
     .vertical{
     transform: rotate(90deg);
     height: 90vw;
-    margin-top:190px;
+    margin-top:-20vh;
     }
     .social{
         width: 90%;
+        height:40%;
         left: 0%;
-        top: 65px;
+        margin-top: 20vh;
     }
     .social h1{
         text-align: center;
@@ -430,16 +549,13 @@ h2 {
     }
     .designed{
         color: var(--white-cream);
-        position:relatives;
-        left: 28vw;
+        left: 26vw;
         top:85vh;
         max-width: 100%;
     }
     .made{
         color: var(--white-cream);
-        position:relatives;
-        left: 32vw;
-        top:85vh;
-        max-width: 100%;
+        position:relative;
+        left: -2vw;
     }
 }
