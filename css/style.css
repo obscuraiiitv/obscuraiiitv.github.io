@@ -403,7 +403,7 @@ h2 {
     }
     
     ul li {
-        margin-left:3vw;
+        margin-left:2vw;
     }
     
     .btn {
@@ -534,7 +534,7 @@ h2 {
     }
     .designed{
         color: var(--white-cream);
-        left: 28vw;
+        left: 26vw;
         top:85vh;
         max-width: 100%;
     }
