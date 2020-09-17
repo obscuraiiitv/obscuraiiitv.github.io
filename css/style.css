@@ -399,7 +399,7 @@ h2 {
         margin-top:15vh;
         display: flex;
         list-style-type: none;
-        margin-left:-90vw;
+        margin-left:-88vw;
     }
     
     ul li {
@@ -412,7 +412,7 @@ h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
-        font-size: 0.7em;
+        font-size: 0.68em;
         letter-spacing: 0.2rem;
         animation-name: text-second;
         animation-duration: 1s;
