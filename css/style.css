@@ -233,6 +233,18 @@ ul li a:hover {
     transition: all 0.5s;
 }
 
+.mentor {
+    display: block;
+    margin-left: 405px;
+    margin-right: auto;
+    width: 50%;
+}
+
+.third {
+    text-align: center;
+    margin-left: auto;
+}
+
 .Categories {
     padding-top: 0px;
 }
@@ -453,6 +465,12 @@ h2 {
     .gallery img:hover {
         transform: scale(1.1);
         transition: all 0.3s;
+    }
+    .mentor {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .Core-Team {
         display: flex;
