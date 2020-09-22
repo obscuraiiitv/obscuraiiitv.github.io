@@ -349,6 +349,24 @@ ul li a:hover {
     color: var(--white-cream);
 }
 
+.sec-name {
+    color: var(--white-cream);
+    position: relative;
+    left: 0px;
+}
+
+.tech-name {
+    color: var(--white-cream);
+    position: relative;
+    left: 0px;
+}
+
+.event-name {
+    color: var(--white-cream);
+    position: relative;
+    left: 0px;
+}
+
 .first-name {
     color: var(--white-cream);
     position: relative;
@@ -618,6 +636,30 @@ h2 {
     .third-name {
         color: var(--white-cream);
         left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .sec-name {
+        color: var(--white-cream);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        left: -34px;
+    }
+    .tech-name {
+        color: var(--white-cream);
+        left: -25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .event-name {
+        color: var(--white-cream);
+        left: -34px;
         display: block;
         margin-left: auto;
         margin-right: auto;
