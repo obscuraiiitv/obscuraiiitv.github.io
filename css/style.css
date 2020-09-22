@@ -183,7 +183,7 @@ ul li a:hover {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100!important;
-    font-size: 1.0em;
+    font-size: 1.1em;
     letter-spacing: 0.02rem;
 }
 
@@ -256,9 +256,16 @@ ul li a:hover {
     width: 50%;
 }
 
-.third {
+.third-year {
     text-align: center;
     margin-left: auto;
+    display: flex;
+}
+
+.second-year {
+    text-align: center;
+    margin-left: auto;
+    display: flex;
 }
 
 .Categories {
@@ -323,6 +330,39 @@ ul li a:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
     transition: all 0.5s;
+}
+
+.names {
+    text-align: center;
+    text-decoration: none!important;
+}
+
+.member {
+    text-align: center;
+}
+
+.member-name {
+    display: block;
+    margin-left: 295px;
+    margin-right: auto;
+    width: 50%;
+    color: var(--white-cream);
+}
+
+.first-name {
+    color: var(--white-cream);
+    position: relative;
+    left: 0px;
+}
+
+.second-name {
+    color: var(--white-cream);
+    left: 70px;
+}
+
+.third-name {
+    color: var(--white-cream);
+    left: 0px;
 }
 
 h2 {
@@ -537,6 +577,51 @@ h2 {
     .Alumni img:hover {
         transform: scale(1.1);
         transition: all 0.3s;
+    }
+    .names {
+        text-align: center;
+    }
+    .third-year {
+        text-align: center;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-year {
+        text-align: center;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .member-name {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        color: var(--white-cream);
+    }
+    .first-name {
+        color: var(--white-cream);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .second-name {
+        color: var(--white-cream);
+        left: 70px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .third-name {
+        color: var(--white-cream);
+        left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .email {
         padding: 10px;
