@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
     <link rel="manifest" href="favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <title>Contact</title>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -35,18 +36,27 @@
             </div>
         </header>
         <main>
-            <div class="email">
+            <!-- <div class="email">
                 <h2>Email:</h2>
-                <h2 style="position: relative; left: 50px;"> <a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2>
+                <h2 style="position: relative; left: 50px;"> <a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2> -->
                 <!-- <h2><a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2> -->
-                <h2 style="padding-top: 10px;">Contact No.:</h2>
+                <!-- <h2 style="padding-top: 10px;">Contact No.:</h2>
                 <h2 style="position: relative; left: 50px;"><a href="tel:8374836626">8374836626</a></h2>
                 <h2 style="position: relative; left: 50px;"><a href="tel:9725750798">9725750798</a></h2>
-            </div>
+            </div> -->
 
-            <div class="vertical">
-            </div>
-
+ 
+        </main>
+        <div class="box">
+            <h2>Connect with Obscura!</h2>
+            <form action="https://formspree.io/xqkgaepo" method="POST"> 
+                <input type="text" placeholder="Name" required class="names">
+                <input type="text" placeholder="E-mail" name="_replyto" class="names">
+                <input type="text" placeholder="Subject" class="names">
+                <textarea placeholder="message" class="text"></textarea>
+                <input type="submit" value="Send" class="sendbtn">
+            </form>
+        </div>    
             <div class="social">
                 <h1>Follow Us On Social Media</h1>
                 <div class="smicons">
@@ -56,8 +66,6 @@
                     <a href="https://www.linkedin.com/company/obscura-iiitv/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-
-        </main>
         <footer class="made">
             <center>
                 <h6>Made with

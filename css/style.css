@@ -270,6 +270,11 @@ ul li a:hover {
 
 .Categories {
     padding-top: 0px;
+    font-family: 'Lato';
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Core-Team {
@@ -286,6 +291,12 @@ ul li a:hover {
     filter: grayscale(100%);
 }
 
+.Core-Team h2, .Alumni h2{
+    font-family: 'Vidaloka';
+    font-size: 2rem;
+    letter-spacing: 0.07rem;
+}
+
 .Core-Team img:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
@@ -296,6 +307,11 @@ ul li a:hover {
     margin: 50px 50px;
     padding-left: 100px;
     bottom: 100px;
+}
+
+.Members h2{
+    font-family: 'Vidaloka';
+    font-size: 1.7rem;
 }
 
 .Members img {
@@ -317,6 +333,7 @@ ul li a:hover {
     padding-left: 100px;
     bottom: 100px;
 }
+
 
 .Alumni img {
     transition: 1s;
@@ -437,18 +454,21 @@ h2 {
     font-family: 'Vidaloka', serif;
     background-color: rgba(0, 0, 0, 0.65);
     color: var(--white-cream);
-    width: 30%;
-    position: relative;
-    left: 63%;
-    bottom: 295px;
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 0px;
 }
 
 .smicons {
     height: 100px;
     width: 345px;
-    position: relative;
-    left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .fab {
