@@ -54,9 +54,18 @@
     color: white!important;
     display: flex;
     justify-content: center;
+    align-items: center;
     letter-spacing: 0.11rem;
     margin-bottom: 0;
     cursor:pointer;
+    margin-bottom: 20px;
+    width: 320px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: left;
+    border-radius: 0px;
   }
 
   
