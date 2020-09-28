@@ -291,7 +291,8 @@ ul li a:hover {
     filter: grayscale(100%);
 }
 
-.Core-Team h2, .Alumni h2{
+.Core-Team h2,
+.Alumni h2 {
     font-family: 'Vidaloka';
     font-size: 2rem;
     letter-spacing: 0.07rem;
@@ -309,7 +310,7 @@ ul li a:hover {
     bottom: 100px;
 }
 
-.Members h2{
+.Members h2 {
     font-family: 'Vidaloka';
     font-size: 1.7rem;
 }
@@ -333,7 +334,6 @@ ul li a:hover {
     padding-left: 100px;
     bottom: 100px;
 }
-
 
 .Alumni img {
     transition: 1s;
@@ -573,7 +573,7 @@ h2 {
         justify-content: center;
         bottom: 100px;
         margin: 2vh -3vw;
-        padding-left: 2vw;
+        padding-left: -1vw;
     }
     .Core-Team img {
         margin-right: 20vw;
