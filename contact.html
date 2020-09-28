@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
     <link rel="manifest" href="favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <title>Contact</title>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -35,18 +36,32 @@
             </div>
         </header>
         <main>
-            <div class="email">
+            <!-- <div class="email">
                 <h2>Email:</h2>
-                <h2 style="position: relative; left: 50px;"> <a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2>
+                <h2 style="position: relative; left: 50px;"> <a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2> -->
                 <!-- <h2><a href=mailto:obscura@iiitvadodara.ac.in>obscura@iiitvadodara.ac.in</a></h2> -->
-                <h2 style="padding-top: 10px;">Contact No.:</h2>
+                <!-- <h2 style="padding-top: 10px;">Contact No.:</h2>
                 <h2 style="position: relative; left: 50px;"><a href="tel:8374836626">8374836626</a></h2>
                 <h2 style="position: relative; left: 50px;"><a href="tel:9725750798">9725750798</a></h2>
-            </div>
+            </div> -->
 
-            <div class="vertical">
-            </div>
-
+ 
+        </main>
+        <div class="box">
+            <h2>Connect with Obscura!</h2>
+            <form action="https://formspree.io/xqkgaepo" method="POST"> 
+                <input type="name" name="name" placeholder="Name" required class="names">
+                <input type="email" placeholder="E-mail" name="_replyto" class="names">
+                <input type="subject" name="subject" placeholder="Subject" class="names">
+                <textarea placeholder="message" name="message" class="text"></textarea>
+                <a type="submit"  class="sendbtn">Send <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F3F3F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <line x1="15" y1="16" x2="19" y2="12" />
+                    <line x1="15" y1="8" x2="19" y2="12" />
+                  </svg></a>
+            </form>
+        </div>    
             <div class="social">
                 <h1>Follow Us On Social Media</h1>
                 <div class="smicons">
@@ -56,8 +71,6 @@
                     <a href="https://www.linkedin.com/company/obscura-iiitv/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-
-        </main>
         <footer class="made">
             <center>
                 <h6>Made with
