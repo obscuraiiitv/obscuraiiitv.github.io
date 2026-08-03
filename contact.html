@@ -7,7 +7,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -22,13 +23,19 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="./images/logo.png" href="./index.html" alt="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
                 </div>
-                <nav>
-                <ul id="#active"> 
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                <ul id="active"> 
                     <li><a href="./index.html" class="btn">HOME</a></li>
                     <li><a href="./gallery.html" class="btn">GALLERY</a></li>
                     <li><a href="./team.html" class="btn">TEAM</a></li>
+                    <li><a href="./alumni.html" class="btn">ALUMNI</a></li>
                     <li><a href="./contact.html"  class="btn active">CONTACT</a></li>
 
                 </ul>
@@ -54,12 +61,12 @@
                 <input type="email" placeholder="E-mail" name="_replyto" class="names">
                 <input type="subject" name="subject" placeholder="Subject" class="names">
                 <textarea placeholder="message" name="message" class="text"></textarea>
-                <a type="submit"  class="sendbtn">Send <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F3F3F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <button type="submit" class="sendbtn">Send <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F3F3F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <line x1="15" y1="16" x2="19" y2="12" />
                     <line x1="15" y1="8" x2="19" y2="12" />
-                  </svg></a>
+                  </svg></button>
             </form>
         </div>    
             <div class="social">
@@ -76,7 +83,7 @@
                 <h6>Made with
                     <span>
                     <i class="fas fa-heart"></i>
-                </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a>& <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
+                </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a> & <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
             </center>
         </footer>
     </div>

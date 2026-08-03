@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
@@ -20,17 +20,22 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="./images/logo.png" href="./index.html" alt="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
                 </div>
-                <nav>
-                <ul id="#active"> 
-                    <li><a href="#" class="btn active">HOME</a></li>
-                    <li><a href="./gallery.html" class="btn">GALLERY</a></li>
-                    <li><a href="./team.html" class="btn">TEAM</a></li>
-                    <li><a href="./contact.html" class="btn">CONTACT</a></li>
-
-                </ul>
-            </nav>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <ul id="active"> 
+                        <li><a href="#" class="btn active">HOME</a></li>
+                        <li><a href="./gallery.html" class="btn">GALLERY</a></li>
+                        <li><a href="./team.html" class="btn">TEAM</a></li>
+                        <li><a href="./alumni.html" class="btn">ALUMNI</a></li>
+                        <li><a href="./contact.html" class="btn">CONTACT</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
@@ -42,12 +47,10 @@
             </div>
         </main>
         <footer class="designed">
-            <center>
-                <h6>Designed and Developed with
-                    <span>
-                        <i class="fas fa-heart"></i>
-                    </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a>& <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
-                </center>
+            <h6>Designed and Developed with
+                <span>
+                    <i class="fas fa-heart"></i>
+                </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a> & <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
         </footer>
     </div>
 </body>

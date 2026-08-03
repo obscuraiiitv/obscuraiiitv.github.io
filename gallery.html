@@ -4,7 +4,7 @@
 <head>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
 
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,13 +26,19 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="./images/logo.png" href="./index.html" alt="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
                 </div>
-                <nav>
-                    <ul id="#active">
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <ul id="active">
                         <li><a href="./index.html" class="btn">HOME</a></li>
                         <li><a href="./gallery.html" class="btn active">GALLERY</a></li>
                         <li><a href="./team.html" class="btn">TEAM</a></li>
+                        <li><a href="./alumni.html" class="btn">ALUMNI</a></li>
                         <li><a href="./contact.html" class="btn">CONTACT</a></li>
                     </ul>
                 </nav>
@@ -39,21 +46,21 @@
         </header>
         <div>
             <div class="gallery">
-                <a href="gallery/parrot.jpg" data-lightbox="mygallery" data-title="Parrot"> <img src=" gallery/parrot-small.jpg "> </a>
-                <a href="gallery/tunnel.jpeg" data-lightbox="mygallery" data-title="Tunnel"> <img src=" gallery/tunnel-small.jpg "> </a>
+                <a href="gallery/parrot.jpg" data-lightbox="mygallery" data-title="Parrot"> <img src="gallery/parrot-small.jpg"> </a>
+                <a href="gallery/tunnel.jpeg" data-lightbox="mygallery" data-title="Tunnel"> <img src="gallery/tunnel-small.jpg"> </a>
                 <a href="gallery/deep1.jpeg" data-lightbox="mygallery " data-title=""> <img src="gallery/deep1-small.png"> </a>
                 <a href="gallery/IMG_20190621_171133__01__01 - 201852030 SWASTI KHURANA.jpg" data-lightbox="mygallery " data-title=""> <img src="gallery/IMG_20190621_171133__01__01 - 201852030 SWASTI KHURANA-small.png"> </a>
                 <a href="gallery/deep3.jpeg" data-lightbox="mygallery " data-title=""> <img src="gallery/deep3-small.png"> </a>
                 <a href="gallery/deep4.jpeg" data-lightbox="mygallery " data-title=""> <img src="gallery/deep4-small.png"> </a>
-                <a href="gallery/man.jpeg" data-lightbox="mygallery" data-title="Man"> <img src=" gallery/man-small.jpg "> </a>
+                <a href="gallery/man.jpeg" data-lightbox="mygallery" data-title="Man"> <img src="gallery/man-small.jpg"> </a>
                 <a href="gallery/deep2.jpeg" data-lightbox="mygallery " data-title=""> <img src="gallery/deep2-small.png"> </a>
                 <a href="gallery/IMG_20190119_100620__01__01 - 201852030 SWASTI KHURANA.jpg" data-lightbox="mygallery " data-title=""> <img src="gallery/IMG_20190119_100620__01__01 - 201852030 SWASTI KHURANA-small.png"> </a>
-                <a href="gallery/mumbai.jpeg" data-lightbox="mygallery" data-title="Mumbai"> <img src=" gallery/mumbai-small.jpg "> </a>
+                <a href="gallery/mumbai.jpeg" data-lightbox="mygallery" data-title="Mumbai"> <img src="gallery/mumbai-small.jpg"> </a>
                 <a href="gallery/desert.jpg " data-lightbox="mygallery " data-title="Desert"> <img src="gallery/desert-small.jpg"> </a>
                 <a href="gallery/IMG-20200517-WA0007 - 201951005 ABHINAV PRAKASH.jpg" data-lightbox="mygallery " data-title=""> <img src="gallery/IMG-20200517-WA0007 - 201951005 ABHINAV PRAKASH-small.png"> </a>
-                <a href="gallery/beach.jpg" data-lightbox="mygallery" data-title="Beach"> <img src=" gallery/beach-small.jpg "> </a>
+                <a href="gallery/beach.jpg" data-lightbox="mygallery" data-title="Beach"> <img src="gallery/beach-small.jpg"> </a>
                 <a href="gallery/tree.jpeg " data-lightbox="mygallery " data-title="Tree"> <img src="gallery/tree-small.jpg"> </a>
-                <a href="gallery/glass.jpg" data-lightbox="mygallery" data-title="Glass"> <img src=" gallery/glass-small.jpg "> </a>
+                <a href="gallery/glass.jpg" data-lightbox="mygallery" data-title="Glass"> <img src="gallery/glass-small.jpg"> </a>
                 <a href="gallery/colorpop.jpeg " data-lightbox="mygallery " data-title="Color-Pop"> <img src="gallery/colorpop-small.jpg"> </a>
                 <a href="gallery/mirror.jpg" title="Clicked by Anubhav Madhav" data-lightbox="mygallery" data-title="Mirror Image Clicled by Anubhav Madhav"> <img src="gallery/mirror-small.jpg"> </a>
                 <a href="gallery/kreiva.jpeg " data-lightbox="mygallery " data-title="Kreiva"> <img src="gallery/kreiva-small.jpg"> </a>
@@ -95,7 +102,7 @@
                 <h6>Made with
                     <span>
                     <i class="fas fa-heart"></i>
-                </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a>& <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
+                </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a> & <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
             </center>
         </footer>
     </div>

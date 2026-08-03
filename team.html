@@ -8,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png" class="favicon">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png" class="favicon">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-    <title>Team</title>
+    <title>Team & Alumni</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
 
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -24,15 +25,20 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="./images/logo.png" href="./index.html" alt="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
                 </div>
-                <nav>
-                    <ul id="#active">
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <ul id="active">
                         <li><a href="./index.html" class="btn">HOME</a></li>
                         <li><a href="./gallery.html" class="btn">GALLERY</a></li>
                         <li><a href="./team.html" class="btn active">TEAM</a></li>
+                        <li><a href="./alumni.html" class="btn">ALUMNI</a></li>
                         <li><a href="./contact.html" class="btn">CONTACT</a></li>
-
                     </ul>
                 </nav>
             </div>
@@ -40,52 +46,153 @@
         <div>
             <div class="Categories">
                 <div class="Core-Team">
-                    <h2>Core Team</h2>
+                    <h2>Team &amp; Alumni</h2>
+                    <p class="team-intro">Meet the community behind Obscura. The full alumni roster is also available on the alumni page.</p>
 
-                    <div class="member">
-                        <a href="team/Shwetank-small.jpg" title="Shwetank (Mentor)" data-lightbox="myteam" data-title="Mentor"> <img class="mentor" src="team/Shwetank-small.jpg"> </a>
-                        <h3 class="member-name">Shwetank<br>(Mentor)</h3>
-                    </div>
-                    <div class="member">
-                        <a href="team/Ayush.jpg" title="Ayush Patel (Mentor)" data-lightbox="myteam" data-title="Mentor"> <img class="mentor" src="team/Ayush.jpg"> </a>
-                        <h3 class="member-name">Ayush Patel<br>(Mentor)</h3>
-                    </div>
-
-                    <br>
-                    <span class="third-year">
+                    <span class="second-year alumni-spotlight">
+                        <div class="tech-lead">
+                            <a href="team/Anubhav.jpeg" title="Anubhav Madhav" data-lightbox="myteam"
+                                data-title="Anubhav Madhav"> <img src="team/Anubhav.jpeg"> </a>
+                            <h3 class="tech-name">Anubhav Madhav</h3>
+                        </div>
                         <div class="secretary">
-                            <a href="team/Chetan.JPG" title="Rama chetan Varma (Secretary)" data-lightbox="myteam"
-                                data-title="Secretary"> <img src="team/Chetan.JPG"> </a>
-                            <h3 class="sec-name">Rama chetan Varma<br>(Secretary)</h3>
+                            <a href="team/Tamta.png" title="Ayush Tamta" data-lightbox="myteam"
+                                data-title="Ayush Tamta"> <img src="team/Tamta.png"> </a>
+                            <h3 class="sec-name">Ayush Tamta</h3>
+                        </div>
+                        <div class="member">
+                            <a href="team/Joshua.jpg" title="Joshua Poddoku" data-lightbox="myteam" data-title="Joshua Poddoku"> <img class="mentor" src="team/Joshua-small.jpg"> </a>
+                            <h3 class="member-name">Joshua Poddoku</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/Dipansh.png" title="Dipansh Khandelwal" data-lightbox="myteam"
+                                data-title="Dipansh Khandelwal"> <img src="team/Dipansh.png"> </a>
+                            <h3 class="sec-name">Dipansh Khandelwal</h3>
                         </div>
                         <div class="tech-lead">
-                            <a href="team/Nishant.jpeg" title="Nishant Dev(Joint Secretary)" data-lightbox="myteam"
-                            data-title="Joint-Secretary"> <img src="team/Nishant.jpeg"> </a>
-                        <h3 class="sec-name">Nishant Dev<br>(Joint Secretary)</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Ayush.jpg" title="Ayush Patel (Joint Event Head)" data-lightbox="myteam"
-                                data-title="Joint Event Head"> <img src="team/Ayush.jpg"> </a>
-                            <h3 class="event-name">Ayush Patel<br>(Joint Event Head)</h3>
-                        </div>
-                    </span>
-
-
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Nishant.jpeg" title="Nishant Dev(Joint Secretary)" data-lightbox="myteam"
-                                data-title="Joint-Secretary"> <img src="team/Nishant.jpeg"> </a>
-                            <h3 class="sec-name">Nishant Dev<br>(Joint Secretary)</h3>
+                            <a href="team/nivas.jpg" title="GGJ Nivas" data-lightbox="myteam"
+                                data-title="GGJ Nivas"> <img src="team/nivas.jpg"> </a>
+                            <h3 class="tech-name">GGJ Nivas</h3>
                         </div>
                         <div class="tech-lead">
-                            <a href="team/Raghvi.jpg" title="Raghvi Saxena (Joint Technical Lead)" data-lightbox="myteam"
-                                data-title="Joint Technical Lead"> <img src="team/Raghvi.jpg"> </a>
-                            <h3 class="tech-name">Raghvi Saxena<br>(Joint Technical Lead)</h3>
+                            <a href="team/Shwetank-small.jpg" title="Shwetank" data-lightbox="myteam"
+                                data-title="Shwetank"> <img src="team/Shwetank-small.jpg"> </a>
+                            <h3 class="tech-name">Shwetank</h3>
                         </div>
                         <div class="event-head">
-                            <a href="team/Ayush.jpg" title="Ayush Patel (Joint Event Head)" data-lightbox="myteam"
-                                data-title="Joint Event Head"> <img src="team/Ayush.jpg"> </a>
-                            <h3 class="event-name">Ayush Patel<br>(Joint Event Head)</h3>
+                            <a href="team/Swasti.jpg" title="Swasti Khurana" data-lightbox="myteam"
+                                data-title="Swasti Khurana"> <img src="team/Swasti.jpg"> </a>
+                            <h3 class="event-name">Swasti Khurana</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/Ishita-Maam.JPG" title="Ishita Das" data-lightbox="myteam"
+                                data-title="Ishita Das"> <img src="team/Ishita-Maam.JPG"> </a>
+                            <h3 class="tech-name">Ishita Das</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Pratiti-Maam.jpeg" title="Pratiti Jain" data-lightbox="myteam"
+                                data-title="Pratiti Jain"> <img src="team/Pratiti-Maam.jpeg"> </a>
+                            <h3 class="event-name">Pratiti Jain</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/Deep.jpeg" title="Deep Shah" data-lightbox="myteam"
+                                data-title="Deep Shah"> <img src="team/Deep.jpeg"> </a>
+                            <h3 class="sec-name">Deep Shah</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/Manthan.jpg" title="Manthan Ghasadiya" data-lightbox="myteam"
+                                data-title="Manthan Ghasadiya"> <img src="team/Manthan.jpg"> </a>
+                            <h3 class="tech-name">Manthan Ghasadiya</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/yuvraj.jpeg" title="Yuvraj Singh Rana" data-lightbox="myteam"
+                                data-title="Yuvraj Singh Rana"> <img src="team/yuvraj.jpeg"> </a>
+                            <h3 class="tech-name">Yuvraj Singh Rana</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/ananya.jpeg" title="Ananya Tewari" data-lightbox="myteam"
+                                data-title="Ananya Tewari"> <img src="team/ananya.jpeg"> </a>
+                            <h3 class="tech-name">Ananya Tewari</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/harsha.jpeg" title="Harsha" data-lightbox="myteam"
+                                data-title="Harsha"> <img src="team/harsha.jpeg"> </a>
+                            <h3 class="tech-name">Harsha</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/saad.jpeg" title="Saadullah" data-lightbox="myteam"
+                                data-title="Saadullah"> <img src="team/saad.jpeg"> </a>
+                            <h3 class="sec-name">Saadullah</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/khushi.jpeg" title="Khushi Naik" data-lightbox="myteam"
+                                data-title="Khushi Naik"> <img src="team/khushi.jpeg"> </a>
+                            <h3 class="event-name">Khushi Naik</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/pavan.jpg" title="Ajmera Pavan" data-lightbox="myteam"
+                                data-title="Ajmera Pavan"> <img src="team/pavan.jpg"> </a>
+                            <h3 class="event-name">Ajmera Pavan</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/Mohit.jpg" title="Mohit Panchasara" data-lightbox="myteam"
+                                data-title="Mohit Panchasara"> <img src="team/Mohit.jpg"> </a>
+                            <h3 class="sec-name">Mohit Panchasara</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/Mansi.jpg" title="Mansi Tundele" data-lightbox="myteam"
+                                data-title="Mansi Tundele"> <img src="team/Mansi.jpg"> </a>
+                            <h3 class="tech-name">Mansi Tundele</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Anavya.jpg" title="Anavya Upadhyaya" data-lightbox="myteam"
+                                data-title="Anavya Upadhyaya"> <img src="team/Anavya.jpg"> </a>
+                            <h3 class="event-name">Anavya Upadhyaya</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/Aditya.jpeg" title="Aditya Budhia" data-lightbox="myteam"
+                                data-title="Aditya Budhia"> <img src="team/Aditya.jpeg"> </a>
+                            <h3 class="tech-name">Aditya Budhia</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Deepanshu.jpg" title="Deepanshu Singh" data-lightbox="myteam"
+                                data-title="Deepanshu Singh"> <img src="team/Deepanshu.jpg"> </a>
+                            <h3 class="event-name">Deepanshu Singh</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/Sumit.jpg" title="Sumit Prajapati" data-lightbox="myteam"
+                                data-title="Sumit Prajapati"> <img src="team/Sumit.jpg"> </a>
+                            <h3 class="sec-name">Sumit Prajapati</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/Abhinav.jpg" title="Abhinav Prakash" data-lightbox="myteam"
+                                data-title="Abhinav Prakash"> <img src="team/Abhinav.jpg"> </a>
+                            <h3 class="tech-name">Abhinav Prakash</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Sanjeev.jpeg" title="Sanjeev Mishra" data-lightbox="myteam"
+                                data-title="Sanjeev Mishra"> <img src="team/Sanjeev.jpeg"> </a>
+                            <h3 class="event-name">Sanjeev Mishra</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Roshni-Maam.jpeg" title="Roshni Ram" data-lightbox="myteam"
+                                data-title="Roshni Ram"> <img src="team/Roshni-Maam.jpeg"> </a>
+                            <h3 class="event-name">Roshni Ram</h3>
+                        </div>
+                        <div class="secretary">
+                            <a href="team/ekansh.jpg" title="Ekansh Verma" data-lightbox="myteam"
+                                data-title="Ekansh Verma"> <img src="team/ekansh.jpg"> </a>
+                            <h3 class="sec-name">Ekansh Verma</h3>
+                        </div>
+                        <div class="tech-lead">
+                            <a href="team/mukul.jpg" title="Mukul Kumar" data-lightbox="myteam"
+                                data-title="Mukul Kumar"> <img src="team/mukul.jpg"> </a>
+                            <h3 class="tech-name">Mukul Kumar</h3>
+                        </div>
+                        <div class="event-head">
+                            <a href="team/Anshuman.jpg" title="Anshuman Singh" data-lightbox="myteam"
+                                data-title="Anshuman Singh"> <img src="team/Anshuman.jpg"> </a>
+                            <h3 class="event-name">Anshuman Singh</h3>
                         </div>
                     </span>
 
@@ -230,8 +337,8 @@
                             <h3 class="third-name">Anshuman Singh</h3>
                         </div>
                          <div class="event-head">
-                            <a href="team/Anubhav.jpg" title="Anubhav Madhav (Technical Lead)" data-lightbox="myteam"
-                                data-title="Technical Lead"> <img src="team/Anubhav.jpg"> </a>
+                            <a href="team/Anubhav.jpeg" title="Anubhav Madhav (Technical Lead)" data-lightbox="myteam"
+                                data-title="Technical Lead"> <img src="team/Anubhav.jpeg"> </a>
                             <h3 class="third-name">Joshua Poddoku</h3>
                         </div> 
 
@@ -241,175 +348,6 @@
 
                 </div>
 
-                <div class="Alumni">
-                    <h2>Alumni</h2>
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/yuvraj.jpeg" title="Yuvraj Singh Rana" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/yuvraj.jpeg"> </a>
-                            <h3 class="first-name">Yuvraj Singh Rana</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/ananya.jpeg" title="Ananya Tewari" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/ananya.jpeg"> </a>
-                            <h3 class="second-name">Ananya Tewari</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/harsha.jpeg" title="Harsha" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/harsha.jpeg"> </a>
-                            <h3 class="second-name">Harsha</h3>
-                        </div>
-                        
-
-                    </span>
-
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Deep.jpeg" title="Deep Shah" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Deep.jpeg"> </a>
-                            <h3 class="first-name">Deep Shah</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/vikash.jpeg" title="Vikash Choudhary" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/vikash.jpeg"> </a>
-                            <h3 class="second-name">Vikash Choudhary</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/Himanshu.jpg" title="Himanshu Choudhary" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Himanshu.jpg"> </a>
-                            <h3 class="second-name">Himanshu Choudhary</h3>
-                        </div>
-                        
-
-                    </span>
-
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/saad.jpeg" title="Saadullah" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/saad.jpeg"> </a>
-                            <h3 class="first-name">Mohammed Saadullah</h3>
-                        </div>
-                        
-                        <div class="event-head">
-                            <a href="team/khushi.jpeg" title="Khushi Naik" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/khushi.jpeg"> </a>
-                            <h3 class="third-name">Khushi Naik</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/pavan.jpg" title="Ajmera Pavan" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/pavan.jpg"> </a>
-                            <h3 class="third-name">Ajmera Pavan</h3>
-                        </div>
-                        
-
-                    </span>
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Mohit.jpg" title="Mohit Panchasara" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Mohit.jpg"> </a>
-                            <h3 class="first-name">Mohit Panchasara</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/Mansi.jpg" title="Mansi Tundele" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Mansi.jpg"> </a>
-                            <h3 class="second-name">Mansi Tundele</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Anavya.jpg" title="Anavya Upadhyaya" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Anavya.jpg"> </a>
-                            <h3 class="third-name">Anavya Upadhyaya</h3>
-                        </div>
-                        
-
-                    </span>
-
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Manthan.jpg" title="Manthan Ghasadiya" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Manthan.jpg"> </a>
-                            <h3 class="first-name">Manthan Ghasadiya</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/Aditya.jpeg" title="Aditya Budhia" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Aditya.jpeg"> </a>
-                            <h3 class="second-name">Aditya Budhia</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Deepanshu.jpg" title="Deepanshu Singh" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Deepanshu.jpg"> </a>
-                            <h3 class="third-name">Deepanshu Singh</h3>
-                        </div>
-                        
-
-                    </span>
-                    <span class="second-year">
-                        
-                        <div class="secretary">
-                            <a href="team/ekansh.jpg" title="Ekansh Verma" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/ekansh.jpg"> </a>
-                            <h3 class="first-name">Ekansh Verma</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/mukul.jpg" title="Mukul Kumar" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/mukul.jpg"> </a>
-                            <h3 class="second-name">Mukul Kumar</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Anshuman.jpg" title="Anshuman Singh" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Anshuman.jpg"> </a>
-                            <h3 class="third-name">Anshuman Singh</h3>
-                        </div>
-                    </span>
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Ishita-Maam.JPG" title="Ishita Das" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Ishita-Maam.JPG"> </a>
-                            <h3 class="first-name">Ishita Das</h3>
-                        </div>
-                        <div class="secretary">
-                            <a href="team/Dipansh.png" title="Dipansh Khandelwal" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Dipansh.png"> </a>
-                                <h3 class="first-name">Dipansh Khandelwal</h3>
-                            </div>
-                    
-                        <div class="tech-lead">
-                                <a href="team/nivas.jpg" title="GGJ Nivas" data-lightbox="myteam"
-                                    data-title="Alumni"> <img src="team/nivas.jpg"> </a>
-                                <h3 class="second-name">GGJ Nivas</h3>
-                            </div>
-                    </span>
-                    <span class="second-year">
-                        <div class="secretary">
-                            <a href="team/Sumit.jpg" title="Sumit Prajapati" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Sumit.jpg"> </a>
-                            <h3 class="first-name">Sumit Prajapati</h3>
-                        </div>
-                        <div class="tech-lead">
-                            <a href="team/Abhinav.jpg" title="Abhinav Prakash" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Abhinav.jpg"> </a>
-                            <h3 class="second-name">Abhinav Prakash</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Sanjeev.jpeg" title="Sanjeev Mishra" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Sanjeev.jpeg"> </a>
-                            <h3 class="third-name">Sanjeev Mishra</h3>
-                        </div>
-
-                    </span>
-                    <span class="second-year">
-                        <div class="event-head">
-                            <a href="team/Roshni-Maam.jpeg" title="Roshni Ram" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Roshni-Maam.jpeg"> </a>
-                            <h3 class="third-name">Roshni Ram</h3>
-                        </div>
-                        <div class="event-head">
-                            <a href="team/Pratiti-Maam.jpeg" title="Pratiti Jain" data-lightbox="myteam"
-                                data-title="Alumni"> <img src="team/Pratiti-Maam.jpeg"> </a>
-                            <h3 class="third-name">Pratiti Jain</h3>
-                        </div> 
-
-                    </span>
-                </div>
             </div>
             </main>
             <footer class="made">
@@ -417,7 +355,7 @@
                     <h6>Made with
                         <span>
                         <i class="fas fa-heart"></i>
-                    </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a>& <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
+                    </span> by <br> <a href="https://www.instagram.com/joshuapoddoku/">Joshua Poddoku</a>, <a href="https://www.instagram.com/anubhav_madhav/"> Anubhav Madhav</a>, <a target="_blank" href="https://www.instagram.com/raghvisaxena/">Raghvi Saxena</a> & <a target="_blank" href="https://www.instagram.com/chetan___varma/">Ramachetan Varma</a></h6>
                 </center>
             </footer>
         </div>
